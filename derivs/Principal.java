@@ -38,12 +38,5 @@ public class Principal extends Contribuyente {
         }
     }
 
-    @Override
-    public int compareTo(Contribuyente contribuyente) {
-        if(this.montoPago() ==contribuyente.montoPago()){
-            return 0;
-        }else{
-            return this.montoPago() > contribuyente.montoPago() ? 1 : -1;
-        }
-    }
+
 }
