@@ -13,6 +13,10 @@ public class Principal {
         System.out.println("Imprimiendo lo que tiene la bolsa: ");
         
         System.out.println("HOLA");
+        System.out.println("HOLA");
+        System.out.println("HOLA");
+        System.out.println("HOLA");
+        System.out.println("HOLA");
         listar(bol_contri);
 
     }
