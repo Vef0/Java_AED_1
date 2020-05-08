@@ -12,7 +12,7 @@ public class Principal {
         System.out.println("Objeto de la lista extremo menor: \n"+extr[0]+"\nExtremo mayor: \n"+extr[1]);
         System.out.println("Imprimiendo lo que tiene la bolsa: ");
         
-
+        System.out.println("HOLA");
         listar(bol_contri);
 
     }
