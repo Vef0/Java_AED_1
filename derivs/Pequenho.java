@@ -26,12 +26,4 @@ public class Pequenho extends Contribuyente {
         return "Pequenho "+super.toString()+", Impuesto:"+this.montoPago()+" }";
     }
 
-    @Override
-    public int compareTo(Contribuyente contribuyente) {
-        if(this.montoPago() ==contribuyente.montoPago()){
-            return 0;
-        }else{
-            return this.montoPago() > contribuyente.montoPago() ? 1 : -1;
-        }
-    }
 }
