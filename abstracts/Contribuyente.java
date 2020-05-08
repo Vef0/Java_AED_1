@@ -61,4 +61,12 @@ public abstract class Contribuyente implements Comparable<Contribuyente>{
         return "Contribuyente{ID: "+this.getIdentificacion() +", Ingresos:"+this.getIngresos()+", Egresos: "+this.getEgresos();
 
     }
+    @Override
+    public int compareTo(Contribuyente contribuyente) {
+        if(this.montoPago() ==contribuyente.montoPago()){
+            return 0;
+        }else{
+            return this.montoPago() > contribuyente.montoPago() ? 1 : -1;
+        }
+    }
 }
